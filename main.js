@@ -1,11 +1,7 @@
-
-
- document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function(event) {
 	let Summp = document.getElementById('splus');
 	let plus = document.querySelectorAll(".pluss");
-	// alert(plus.length);
 	for (let i=0; i <= plus.length-1; i++){
-		// alert(plus[i]);
 		plus[i].addEventListener("change", function sum() {
 			if (plus[i].value == ""){
 				plus[i].value=0;
@@ -26,7 +22,6 @@
 		pr10.value = cr10;	
 		pr15.value = zao15;	
 		});
-	
 	}
 
 /*Кінець частини Прибуток*/
