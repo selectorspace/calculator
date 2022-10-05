@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+   <div class="d-flex">
+       <div class="block_1">
+            <h2>Прибуток</h2>
+            <label>Аванс<input class="pluss" type="number" name="pl1"  value="0"></label>
+            <label>Заробітна плата<input class="pluss" type="number" name="pl2"  value="0"></label>
+            <label>OLX<input class="pluss" type="number" name="pl3"  value="0"></label>
+            <label>Підробіток<input class="pluss" type="number" name="pl4"  value="0"></label>
+            <label>Інші прибутки<input class="pluss" type="number" name="pl5"  value="0"></label>
+
+            <label>Сума прибутків<input id="splus" readonly type="number" name="respl"  value="0"></label>
+        </div>
+        <div class="block_2">
+            <h2>Витрати</h2>
+            <label>Квартплата<input class="minuss" type="number" name=""  value="0"></label>
+            <label>Комунальні платежі<input class="minuss" type="number" name=""  value="0"></label>
+            <label>Продукти<input class="minuss" type="number" name=""  value="0"></label>
+            <label>Інші витрати<input class="minuss" type="number" name=""  value="0"></label>
+
+            <label>10% на кредитну карту<input id="proc10" readonly type="number" name=""  value="0"></label>
+            <label>15% заощаджень<input id="proc15" readonly type="number" name=""  value="0"></label>
+
+            <label>Сума всіх витрат<input id="costs" class="sminus" readonly type="" name=""  value="0"></label>
+        </div>
+   </div>
+   <div class="block_3">
+       <h2>Підсумок</h2>
+       <label>Сума прибутків<input id="rsplus" readonly type="number" name="respl"  value="0"></label>
+
+        <label>10% на кредитну карту<input id="pr10" readonly type="number" name=""  value="0"></label>
+        <label>15% заощаджень<input id="pr15" readonly type="number" name=""  value="0"></label>
+
+        <label>Сума всіх витрат<input id="rcosts" class="sminus" readonly type="" name=""  value="0"></label>
+        <label>Залишок<input id="result" readonly type="number" name=""  value="0"></label>
+
+    </div>
+
+   </body>
+</html> 

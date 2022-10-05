@@ -1,0 +1,48 @@
+
+
+
+
+
+body{
+	padding:10% 5%;
+}
+body *{
+	outline: none;
+}
+.d-flex{
+	display:flex;
+	flex-wrap: wrap;
+}
+ h2{
+	width: 100%;
+	text-align: center;
+}
+.d-flex>div{
+	width:50%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0% 5%;
+	box-sizing: border-box;
+}
+.d-flex>div label{
+	width: 100%;
+	display:flex;
+	justify-content: space-between;
+}
+.block_3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.block_3 label{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 5%;
+}
+.block_3 label input{
+	border:0px;
+	font-size: 20px;
+	font-weight: bold;
+}
